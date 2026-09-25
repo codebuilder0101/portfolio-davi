@@ -1,6 +1,6 @@
-# davi.dev — Portfolio
+# Davi José da Silva — Portfolio
 
-Personal portfolio for Davi, Mobile App & AI Developer (iOS · Android · Web).
+Personal portfolio for Davi José da Silva, Mobile App & AI Developer (iOS · Android · Web).
 Built with **Next.js 16 (App Router)**, **Tailwind CSS v4** and **Motion**.
 
 ## Run

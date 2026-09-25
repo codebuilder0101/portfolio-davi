@@ -12,8 +12,9 @@ export function AboutView() {
         kicker={t.about.kicker}
         title={t.about.title}
         sub={t.about.sub}
-        image="/images/office-4.jpg"
-        imageAlt="Davi celebrating a product launch with a client in a bright office"
+        image="/images/computer.jpg"
+        imageAlt="Developer workstation with a monitor, RGB keyboard and desktop tower"
+        imagePosition="object-[38%_center]"
         orbs={[
           { glyph: "mobile", tone: "green" },
           { glyph: "ai", tone: "violet" },
@@ -38,8 +39,8 @@ export function ExpertiseView() {
         kicker={t.expertisePage.kicker}
         title={t.expertisePage.title}
         sub={t.expertisePage.sub}
-        image="/images/vr-player.jpg"
-        imageAlt="Developer testing a virtual reality experience"
+        image="/images/ar-1.jpg"
+        imageAlt="White virtual reality headset and controllers"
         shape="shape-blob"
         orbs={[
           { glyph: "build", tone: "blue" },
@@ -65,8 +66,8 @@ export function WorkView() {
         kicker={t.workPage.kicker}
         title={t.workPage.title}
         sub={t.workPage.sub}
-        image="/images/mobile-1.jpg"
-        imageAlt="Mobile app dashboard shown on a smartphone"
+        image="/images/setup-dark.jpg"
+        imageAlt="Developer setup with monitors full of code and a smartphone"
         shape="shape-leaf"
         orbs={[
           { glyph: "fintech", tone: "green" },

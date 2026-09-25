@@ -29,13 +29,13 @@ export function LogoMark({ className = "size-12" }: { className?: string }) {
 
 export function Logo({ href = "/" }: { href?: string }) {
   return (
-    <Link href={href} className="group flex items-center gap-3" aria-label="Davi — home">
+    <Link href={href} className="group flex items-center gap-3" aria-label="Davi José da Silva — home">
       <span className="grid place-items-center rounded-full bg-white/70 p-1 shadow-[var(--shadow-soft)] transition-transform duration-500 group-hover:rotate-12 group-hover:scale-105">
         <LogoMark className="size-12 md:size-14" />
       </span>
       <span className="flex flex-col leading-none">
         <span className="font-display text-2xl font-extrabold tracking-tight md:text-[1.7rem]">
-          davi<span className="text-verde">.</span>dev
+          Davi
         </span>
         <span className="mt-1 text-[0.7rem] font-bold uppercase tracking-[0.22em] text-muted">Mobile · AI · Web</span>
       </span>

@@ -22,7 +22,7 @@ const en = {
     titleA: "Building",
     words: ["mobile apps", "AI products", "iOS experiences", "Android apps", "web platforms"],
     titleB: "people love to use.",
-    sub: "I'm Davi, a developer from Brazil with 10+ years turning ideas into scalable apps with Flutter, React Native, Swift, Kotlin and AI.",
+    sub: "I'm Davi José da Silva, a developer from Brazil with 10+ years turning ideas into scalable apps with Flutter, React Native, Swift, Kotlin and AI.",
     cta1: "See my work",
     cta2: "Explore expertise",
     stats: [
@@ -133,7 +133,7 @@ const en = {
   },
   about: {
     kicker: "About me",
-    title: "Hi, I'm Davi.",
+    title: "Hi, I'm Davi José da Silva.",
     sub: "Mobile & web developer from Brazil. 10+ years, 500+ clients, one goal: products that make a difference.",
     storyTitle: "From one app to hundreds of launches",
     story: [
@@ -235,7 +235,7 @@ const pt: Dict = {
     titleA: "Criando",
     words: ["apps mobile", "produtos com IA", "experiências iOS", "apps Android", "plataformas web"],
     titleB: "que as pessoas amam usar.",
-    sub: "Sou o Davi, desenvolvedor brasileiro com mais de 10 anos transformando ideias em apps escaláveis com Flutter, React Native, Swift, Kotlin e IA.",
+    sub: "Sou Davi José da Silva, desenvolvedor brasileiro com mais de 10 anos transformando ideias em apps escaláveis com Flutter, React Native, Swift, Kotlin e IA.",
     cta1: "Ver projetos",
     cta2: "Conhecer expertise",
     stats: [
@@ -346,7 +346,7 @@ const pt: Dict = {
   },
   about: {
     kicker: "Sobre mim",
-    title: "Olá, eu sou o Davi.",
+    title: "Olá, eu sou Davi José da Silva.",
     sub: "Desenvolvedor mobile e web do Brasil. 10+ anos, 500+ clientes, um objetivo: produtos que fazem a diferença.",
     storyTitle: "De um app a centenas de lançamentos",
     story: [
@@ -446,7 +446,7 @@ const es: Dict = {
     titleA: "Creando",
     words: ["apps móviles", "productos con IA", "experiencias iOS", "apps Android", "plataformas web"],
     titleB: "que la gente ama usar.",
-    sub: "Soy Davi, desarrollador de Brasil con más de 10 años convirtiendo ideas en apps escalables con Flutter, React Native, Swift, Kotlin e IA.",
+    sub: "Soy Davi José da Silva, desarrollador de Brasil con más de 10 años convirtiendo ideas en apps escalables con Flutter, React Native, Swift, Kotlin e IA.",
     cta1: "Ver proyectos",
     cta2: "Explorar experiencia",
     stats: [
@@ -557,7 +557,7 @@ const es: Dict = {
   },
   about: {
     kicker: "Sobre mí",
-    title: "Hola, soy Davi.",
+    title: "Hola, soy Davi José da Silva.",
     sub: "Desarrollador mobile y web de Brasil. 10+ años, 500+ clientes, un objetivo: productos que marcan la diferencia.",
     storyTitle: "De una app a cientos de lanzamientos",
     story: [

@@ -45,7 +45,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-ink/10 pt-8 text-base text-muted md:flex-row">
-          <p>© {new Date().getFullYear()} Davi. {t.footer.rights}</p>
+          <p>© {new Date().getFullYear()} Davi José da Silva. {t.footer.rights}</p>
           <p className="flex items-center gap-2 font-semibold">
             <Flag code="pt" className="size-6" /> {t.footer.made}
           </p>

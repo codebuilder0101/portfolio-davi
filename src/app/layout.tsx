@@ -13,17 +13,17 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Davi — Mobile App & AI Developer · iOS, Android & Web",
-    template: "%s · Davi",
+    default: "Davi José da Silva — Mobile App & AI Developer · iOS, Android & Web",
+    template: "%s · Davi José da Silva",
   },
   description:
-    "Davi is a Brazilian Mobile App & Website Developer with 10+ years and 500+ clients. Flutter, React Native, SwiftUI, Kotlin, AI-powered apps, AR/VR and modern web.",
+    "Davi José da Silva is a Brazilian Mobile App & Website Developer with 10+ years and 500+ clients. Flutter, React Native, SwiftUI, Kotlin, AI-powered apps, AR/VR and modern web.",
   keywords: ["Flutter developer", "React Native", "iOS developer", "Android developer", "Swift", "Kotlin", "AI apps", "Machine learning", "Django", "Brazil"],
-  authors: [{ name: "Davi" }],
+  authors: [{ name: "Davi José da Silva" }],
   openGraph: {
     type: "website",
-    siteName: "davi.dev",
-    title: "Davi — Mobile App & AI Developer",
+    siteName: "Davi José da Silva",
+    title: "Davi José da Silva — Mobile App & AI Developer",
     description: "10+ years · 500+ clients · Flutter, React Native, iOS, Android, AI and Web.",
     locale: "en_US",
     alternateLocale: ["pt_BR", "es_ES"],

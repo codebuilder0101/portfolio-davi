@@ -24,6 +24,7 @@ export function PageHero({
   imageAlt,
   orbs,
   shape = "shape-arch",
+  imagePosition = "object-center",
 }: {
   kicker: string;
   title: string;
@@ -32,6 +33,7 @@ export function PageHero({
   imageAlt: string;
   orbs: { glyph: GlyphName; tone: Tone }[];
   shape?: string;
+  imagePosition?: string;
 }) {
   return (
     <section className="tex-paper relative isolate overflow-hidden px-5 pb-32 pt-36 md:px-8 md:pt-44">
@@ -82,7 +84,7 @@ export function PageHero({
         >
           <div className="absolute -left-8 -top-8 size-40 rounded-full bg-gradient-to-br from-[#ffe39a] to-ouro" />
           <div className={`${shape} relative aspect-[4/5] overflow-hidden border-8 border-white shadow-[var(--shadow-lift)]`}>
-            <Image src={image} alt={imageAlt} fill sizes="(max-width:1024px) 90vw, 30vw" className="object-cover" preload />
+            <Image src={image} alt={imageAlt} fill sizes="(max-width:1024px) 90vw, 30vw" className={`object-cover ${imagePosition}`} preload />
           </div>
           <div className="absolute -bottom-6 -right-4 size-28 rounded-full border-[6px] border-white bg-verde shadow-[var(--shadow-lift)] md:-right-8">
             <svg viewBox="0 0 100 100" className="size-full animate-spin-slow text-white/80" aria-hidden>
@@ -107,10 +109,10 @@ export function Story() {
       <div className="grid gap-16 lg:grid-cols-[1fr_1.1fr]">
         <Reveal className="relative order-2 grid grid-cols-2 gap-5 lg:order-1">
           <div className="shape-arch relative col-span-1 row-span-2 min-h-[26rem] overflow-hidden border-[6px] border-white shadow-[var(--shadow-lift)]">
-            <Image src="/images/office-3.jpg" alt="Modern open-plan tech office" fill sizes="25vw" className="object-cover" />
+            <Image src="/images/office-1.jpg" alt="Bright, empty modern tech office" fill sizes="25vw" className="object-cover" />
           </div>
           <div className="relative aspect-square overflow-hidden rounded-full border-[6px] border-white shadow-[var(--shadow-lift)]">
-            <Image src="/images/office-4.jpg" alt="Celebrating a successful launch with a client" fill sizes="20vw" className="object-cover" />
+            <Image src="/images/vr-controller.jpg" alt="Virtual reality controller on a desk" fill sizes="20vw" className="object-cover" />
           </div>
           <div className="shape-leaf relative aspect-square overflow-hidden border-[6px] border-white shadow-[var(--shadow-lift)]">
             <Image src="/images/uiux.jpg" alt="Designing an interface on a tablet" fill sizes="20vw" className="object-cover" />

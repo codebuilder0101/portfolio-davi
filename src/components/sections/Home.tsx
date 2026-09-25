@@ -414,7 +414,7 @@ export function Closing() {
           <div className="absolute bottom-[16%] right-[8%] hidden animate-float [animation-delay:-3s] md:block">
             <GlyphOrb name="ai" tone="violet" size="md" />
           </div>
-          <Kicker tone="light">davi.dev</Kicker>
+          <Kicker tone="light">Davi José da Silva</Kicker>
           <h2 className="mx-auto mt-6 max-w-4xl font-display text-4xl font-extrabold leading-[1.05] tracking-tight text-white text-balance md:text-7xl">
             {t.closing.title}
           </h2>
